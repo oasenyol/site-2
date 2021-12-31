@@ -25,7 +25,9 @@ button {
 .navbar button {
   width: 250px;
   height: 60px;
+  border: none;
   border-radius: 100px;
+  box-shadow: 0 0 5px 5px rgb(226, 225, 225);
   background-color: white;
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
@@ -42,7 +44,7 @@ h1 {
   color: hsl(192, 100%, 9%);
 }
 p {
-  font-size: 18px;
+  font-size: 22px;
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
   color: hsl(192, 100%, 9%);
@@ -58,10 +60,8 @@ p {
   align-items: center;
   margin: auto;
   padding-top: 200px;
-
   background-color: #eaf9ff;
 }
-
 .section-one-left button {
   width: 330px;
   height: 65px;
@@ -122,4 +122,64 @@ p {
 .slider-second img,
 .slider-third img {
   width: 500px;
+}
+.final-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.final-section h1 {
+  font-size: 40px;
+}
+.final-section .ready {
+  box-shadow: 0 0 10px 10px whitesmoke;
+  border-radius: 20px;
+  width: 50%;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.final-section .ready button {
+  color: white;
+  background-color: hsl(322, 100%, 66%);
+  border: none;
+  border-radius: 100px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 120px;
+  padding-right: 120px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+}
+.final-section .ready button:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+footer {
+  background: hsl(192, 100%, 9%);
+  width: 100%;
+}
+footer .footer-container {
+  width: 90%;
+}
+footer .box {
+  width: 25%;
+}
+footer .hiza {
+  display: flex;
+  flex-direction: row;
+}
+footer .yazi {
+  color: white;
+  font-size: 18px;
+}
+footer ul li{
+  list-style: none;
+  
+}
+footer ul a{
+  text-decoration: none;
+  color: white;
 }
