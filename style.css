@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+  padding-top: 60px;
+}
+.navbar button {
+  width: 250px;
+  height: 60px;
+  border-radius: 100px;
+  background-color: white;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+  color: hsl(192, 100%, 9%);
+}
+.navbar button:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: hsl(192, 100%, 9%);
+}
+p {
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  color: hsl(192, 100%, 9%);
+}
+.section-one {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  padding-top: 60px;
+}
+.section-one-left button {
+  width: 330px;
+  height: 65px;
+  border-radius: 100px;
+  background-color: hsl(322, 100%, 66%);
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+  color: white;
+  border: none;
+}
+.section-one-left {
+  padding-right: 30px;
+}
+.section-one-left h1 {
+  font-size: 45px;
+}
+.section-one-left p {
+  padding-bottom: 30px;
+}
