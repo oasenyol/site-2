@@ -11,16 +11,19 @@ button {
   transition: 0.3s;
 }
 .navbar {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  width: 90%;
-  margin: auto;
+  width: 100%;
   padding-top: 60px;
   background: transparent;
   position: absolute;
   top: 0;
+}
+.navbar-container {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 .navbar button {
   width: 250px;
@@ -53,14 +56,17 @@ p {
   background-image: url("images/bg-hero-desktop.svg");
   background-size: cover;
   background-repeat: no-repeat;
+  width: 100%;
+  padding-top: 200px;
+  background-color: #eaf9ff;
+}
+.section-one-container {
   width: 90%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   margin: auto;
-  padding-top: 200px;
-  background-color: #eaf9ff;
 }
 .section-one-left button {
   width: 330px;
@@ -175,11 +181,10 @@ footer .yazi {
   color: white;
   font-size: 18px;
 }
-footer ul li{
+footer ul li {
   list-style: none;
-  
 }
-footer ul a{
+footer ul a {
   text-decoration: none;
   color: white;
 }
