@@ -127,24 +127,28 @@ p {
 .slider-first img,
 .slider-second img,
 .slider-third img {
-  width: 500px;
+  width: 35%;
 }
 .final-section {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  position: relative;
+  z-index: 1;
+  top: 150px;
 }
 .final-section h1 {
   font-size: 40px;
 }
 .final-section .ready {
-  box-shadow: 0 0 10px 10px whitesmoke;
+  box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.3);
   border-radius: 20px;
   width: 50%;
   text-align: center;
   padding-top: 50px;
   padding-bottom: 50px;
+  background: white;
 }
 .final-section .ready button {
   color: white;
@@ -166,7 +170,7 @@ p {
 footer {
   background: hsl(192, 100%, 9%);
   width: 100%;
-  padding-top: 200px;
+  padding-top: 300px;
   padding-bottom: 50px;
 }
 footer .huddle {
@@ -183,8 +187,6 @@ footer .footer-container {
 footer .box {
   width: 30%;
 }
-footer .first {
-}
 footer .hiza {
   display: flex;
   flex-direction: row;
@@ -198,6 +200,10 @@ footer .yazi {
 footer ul li {
   list-style: none;
   padding-top: 30px;
+}
+footer ul li:hover {
+  text-decoration: underline;
+  opacity: 0.7;
 }
 footer ul a {
   text-decoration: none;
@@ -216,6 +222,7 @@ footer .linkler {
   display: flex;
   align-items: center;
   padding-left: 20px;
+  padding-bottom: 70px;
 }
 footer .hizalama {
   border: 1px solid white;
