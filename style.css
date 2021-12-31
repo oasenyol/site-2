@@ -6,6 +6,10 @@ body {
 * {
   box-sizing: border-box;
 }
+a,
+button {
+  transition: 0.3s;
+}
 .navbar {
   display: flex;
   flex-direction: row;
@@ -14,6 +18,9 @@ body {
   width: 90%;
   margin: auto;
   padding-top: 60px;
+  background: transparent;
+  position: absolute;
+  top: 0;
 }
 .navbar button {
   width: 250px;
@@ -41,14 +48,20 @@ p {
   color: hsl(192, 100%, 9%);
 }
 .section-one {
+  background-image: url("images/bg-hero-desktop.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
   width: 90%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   margin: auto;
-  padding-top: 60px;
+  padding-top: 200px;
+
+  background-color: #eaf9ff;
 }
+
 .section-one-left button {
   width: 330px;
   height: 65px;
@@ -60,12 +73,53 @@ p {
   color: white;
   border: none;
 }
+.section-one-left button:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
 .section-one-left {
-  padding-right: 30px;
+  width: 35%;
 }
 .section-one-left h1 {
   font-size: 45px;
 }
-.section-one-left p {
-  padding-bottom: 30px;
+.section-one-right {
+  width: 55%;
+}
+.section-one-right img {
+  width: 100%;
+}
+.slider {
+  padding-top: 200px;
+}
+.slider-first,
+.slider-second,
+.slider-third {
+  padding-bottom: 50px;
+  width: 80%;
+  margin: auto;
+}
+.cerceve {
+  padding-bottom: 50px;
+  padding-top: 50px;
+  box-shadow: 0 0 10px 10px whitesmoke;
+  border: none;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  margin: auto;
+}
+.cerceve p {
+  color: gray;
+}
+.cerceve h2 {
+  font-size: 30px;
+}
+.slider-first img,
+.slider-second img,
+.slider-third img {
+  width: 500px;
 }
