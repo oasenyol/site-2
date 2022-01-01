@@ -26,8 +26,7 @@ button {
   align-items: center;
 }
 .navbar button {
-  width: 250px;
-  height: 60px;
+  padding: 20px 100px 20px 100px;
   border: none;
   border-radius: 100px;
   box-shadow: 0 0 5px 5px rgb(226, 225, 225);
@@ -69,8 +68,7 @@ p {
   margin: auto;
 }
 .section-one-left button {
-  width: 330px;
-  height: 65px;
+  padding: 20px 100px 20px 100px;
   border-radius: 100px;
   background-color: hsl(322, 100%, 66%);
   font-family: "Open Sans", sans-serif;
@@ -97,6 +95,7 @@ p {
 }
 .slider {
   padding-top: 200px;
+  width: 100%;
 }
 .slider-first,
 .slider-second,
@@ -118,6 +117,10 @@ p {
   width: 100%;
   margin: auto;
 }
+.slider-second .ozel {
+  display: flex;
+  flex-direction: row-reverse;
+}
 .cerceve p {
   color: gray;
 }
@@ -130,6 +133,7 @@ p {
   width: 35%;
 }
 .final-section {
+  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -170,7 +174,7 @@ p {
 footer {
   background: hsl(192, 100%, 9%);
   width: 100%;
-  padding-top: 300px;
+  padding-top: 100px;
   padding-bottom: 50px;
 }
 footer .huddle {
@@ -196,10 +200,12 @@ footer .yazi {
   color: white;
   font-size: 18px;
   padding-left: 30px;
+  font-family: "Open Sans", sans-serif;
 }
 footer ul li {
   list-style: none;
   padding-top: 30px;
+  font-family: "Open Sans", sans-serif;
 }
 footer ul li:hover {
   text-decoration: underline;
@@ -249,4 +255,147 @@ footer .hizalama:hover a {
   justify-content: flex-end;
   align-items: center;
   margin-right: 200px;
+}
+@media screen and (max-width: 1270px) {
+  p {
+    font-size: 12px;
+  }
+  .navbar {
+    padding-top: 20px;
+  }
+  .navbar-container {
+    width: 95%;
+  }
+  .navbar img {
+    width: 40%;
+  }
+  .navbar button {
+    padding: 5px 20px 5px 20px;
+    font-size: 10px;
+  }
+  .section-one {
+    padding-top: 100px;
+    background-image: url(images/bg-hero-mobile.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .section-one-container {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .section-one-left {
+    width: 60%;
+  }
+  .section-one-right {
+    width: 100%;
+  }
+  .section-one-left h1 {
+    font-size: 16px;
+  }
+  .section-one-left p {
+    padding-bottom: 30px;
+  }
+  .section-one-left button {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 10px;
+  }
+  .section-one-right img {
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
+  .slider {
+    padding-top: 40px;
+  }
+  .slider h2 {
+    font-size: 14px;
+  }
+  .cerceve {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .slider-second .ozel {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+  }
+  .slider-first img,
+  .slider-second img,
+  .slider-third img {
+    width: 50%;
+  }
+  .final-section {
+    top: 50px;
+  }
+  .final-section h1 {
+    font-size: 14px;
+  }
+  .final-section .ready {
+    width: 90%;
+    text-align: center;
+  }
+  .final-section .ready button {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 10px;
+  }
+
+  footer .footer-container {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  footer .box {
+    width: 100%;
+  }
+  footer .yazi {
+    font-size: 12px;
+  }
+  footer .third {
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  footer .linkler {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+  }
+  footer .kaydirma {
+    padding-left: 10px;
+  }
+  footer ul {
+    padding-inline-start: 0px;
+  }
+  footer ul li {
+    padding-top: 20px;
+  }
+  .reserved {
+    font-size: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
 }
