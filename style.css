@@ -117,6 +117,9 @@ p {
   width: 100%;
   margin: auto;
 }
+.cerceve .yazi-hiza {
+  width: 40%;
+}
 .slider-second .ozel {
   display: flex;
   flex-direction: row-reverse;
@@ -258,7 +261,7 @@ footer .hizalama:hover a {
 }
 @media screen and (max-width: 1270px) {
   p {
-    font-size: 12px;
+    font-size: 18px;
   }
   .navbar {
     padding-top: 20px;
@@ -288,16 +291,21 @@ footer .hizalama:hover a {
     text-align: center;
   }
   .section-one-left {
-    width: 60%;
+    width: 100%;
   }
   .section-one-right {
     width: 100%;
   }
   .section-one-left h1 {
-    font-size: 16px;
+    font-size: 24px;
+    width: 80%;
+    margin: auto;
   }
   .section-one-left p {
     padding-bottom: 30px;
+    width: 90%;
+    margin: auto;
+    padding-top: 30px;
   }
   .section-one-left button {
     padding-left: 40px;
@@ -314,6 +322,9 @@ footer .hizalama:hover a {
     padding-top: 40px;
   }
   .slider h2 {
+    font-size: 20px;
+  }
+  .slider p {
     font-size: 14px;
   }
   .cerceve {
@@ -322,6 +333,9 @@ footer .hizalama:hover a {
     justify-content: center;
     align-items: center;
     text-align: center;
+  }
+  .cerceve .yazi-hiza {
+    width: 80%;
   }
   .slider-second .ozel {
     display: flex;
@@ -332,13 +346,13 @@ footer .hizalama:hover a {
   .slider-first img,
   .slider-second img,
   .slider-third img {
-    width: 50%;
+    width: 60%;
   }
   .final-section {
     top: 50px;
   }
   .final-section h1 {
-    font-size: 14px;
+    font-size: 19px;
   }
   .final-section .ready {
     width: 90%;
@@ -363,10 +377,10 @@ footer .hizalama:hover a {
     width: 100%;
   }
   footer .yazi {
-    font-size: 12px;
+    font-size: 18px;
   }
   footer .third {
-    font-size: 12px;
+    font-size: 18px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -397,5 +411,13 @@ footer .hizalama:hover a {
     justify-content: center;
     align-items: center;
     margin: auto;
+  }
+}
+@media screen and (max-width: 320px) {
+  .navbar .navbar-right {
+    width: 40%;
+  }
+  .section-one-left h1 {
+    font-size: 21px;
   }
 }
